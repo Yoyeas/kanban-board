@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Kanban Boards</h2>
+  
+    <!-- ฟอร์มสำหรับสร้าง Board ใหม่ -->
+    <div class="new-board">
+      <input type="text" [()]="newBoardName" placeholder="Enter board name..." />
+      <button (click)="addBoard()">Add Board</button>
+    </div>
+  
+    <!-- แสดงรายการ Boards -->
+    <div class="board-list">
+      <div *="let board of boards" class="board">
+        <h3>{{ board.name }}</h3>
+        <button (click)="(board.id)">Delete</button>
+      </div>
+    </div>
+  </div>
+  

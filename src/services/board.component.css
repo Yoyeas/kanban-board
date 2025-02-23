@@ -1,0 +1,43 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .new-board {
+    margin-bottom: 20px;
+  }
+  
+  .new-board input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .board-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .board {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  

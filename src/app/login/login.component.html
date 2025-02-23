@@ -1,0 +1,8 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <!-- ... (ฟอร์ม username/password) ... -->
+    <button type="submit">เข้าสู่ระบบ</button>
+  </form>
+  
+  <!-- ปุ่มเรียกฟังก์ชัน goToRegister() -->
+  <button (click)="goToRegister()">ลงทะเบียน</button>
+  
